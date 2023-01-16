@@ -1,7 +1,15 @@
 ﻿
 //1 - Sorting algorithm in ascending order
 
-//int[] natNums = { 45, 4546, 546, 878, 2, 87, 12, 2, 64, 7, 8, 6 };
+
+
+//Console.WriteLine("Insert 5 numbers you want them to be shown in ascending order");
+//int[] natNums = new int[5];
+//for (int q = 0; q < natNums.Length; q++)
+//{
+//    natNums[q] = Convert.ToInt32(Console.ReadLine());
+//}
+
 //int temp = 0;
 
 //Console.WriteLine("Given numbers in ascending order");
@@ -23,22 +31,34 @@
 
 //                                                                    2   -   Algorithm for finding average of given numbers in array.
 
-//int[] intnums = {1,2,3,4,5,6,7,8,9,10 };
-//int sumofarray = 0;
+//Console.WriteLine("Insert 5 numbers you want to find average of");
 
-//for (int i = 0; i < intnums.Length; i++)
+//double[] intNums = new double[5];
+//for (int i = 0; i < intNums.Length; i++)
 //{
-//    sumofarray += intnums[i];
+//    intNums[i] = Convert.ToInt32(Console.ReadLine());
+//}
+//double sumofarray = 0;
+
+//for (int i = 0; i < intNums.Length; i++)
+//{
+//    sumofarray += intNums[i];
 //}
 //Console.WriteLine($"{sumofarray} - sum of all given numbers");
-//Console.WriteLine($"{intnums.Length} - count of given numbers");
-//Console.WriteLine($"{sumofarray / intnums.Length} - average of given numbers");
+//Console.WriteLine($"{intNums.Length} - count of given numbers");
+//Console.WriteLine($"{sumofarray / intNums.Length} - average of given numbers");
 
 
 //                                                                     3   -  Sorting algorithm in descending order
 
 
-//int[] natNums = { 45, 4546, 546, 878, 2, 87, 12, 2, 64, 7, 8, 6 };
+//Console.WriteLine("Insert 5 numbers you want them to be shown in descending order");
+
+//int[] natNums = new int[5];
+//for (int i = 0; i < natNums.Length; i++)
+//{
+//    natNums[i] = Convert.ToInt32(Console.ReadLine());
+//}
 //int temp = 0;
 
 //Console.WriteLine("Given numbers in descending order");
